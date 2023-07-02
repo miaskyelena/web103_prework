@@ -1,0 +1,42 @@
+.social-icon{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin: 0 3px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    &:hover{
+        transform: scale(1.2);
+    }
+    
+}
+
+.card-button{
+    margin-top: -rem;
+}
+
+.card:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+.card{
+    transition: all 0.3s ease-in-out;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.Link{
+    text-decoration: none;
+    color: black;
+}
+
+.info-icon:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
